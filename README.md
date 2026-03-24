@@ -1,4 +1,4 @@
-<img width="1390" height="1589" alt="image" src="https://github.com/user-attachments/assets/c34eab64-602a-4542-88b7-11ad22c3a270" /># Ideal, Natural, & Flat-top -Sampling
+
 # Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 # Tools required
