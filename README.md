@@ -1,4 +1,4 @@
-# Ideal, Natural, & Flat-top -Sampling
+<img width="1390" height="1589" alt="image" src="https://github.com/user-attachments/assets/c34eab64-602a-4542-88b7-11ad22c3a270" /># Ideal, Natural, & Flat-top -Sampling
 # Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 # Tools required
@@ -44,7 +44,7 @@ def lowpass(signal, cutoff, fs, order=5):
 cutoff = 10   # > message frequency (5 Hz)
 
 rec_ideal = lowpass(ideal, cutoff, fs)
-
+rec_flat = lowpass(flat, cutoff, fs)
 
 # -------- PLOTS --------
 plt.figure(figsize=(14,16))
@@ -75,8 +75,10 @@ plt.title("Reconstructed signal")
 
 plt.tight_layout()
 plt.show()
+
 ```
 # Output Waveform
+<img width="1390" height="1589" alt="image" src="https://github.com/user-attachments/assets/a7f34ac8-665f-445a-a04c-1342ea2f1d41" />
 
 # Results
 Thus, the construction and reconstruction of Ideal, Natural, and Flat-top sampling were successfully implemented using Python, and the corresponding waveforms were obtained.
